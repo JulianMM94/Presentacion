@@ -1,0 +1,83 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 166, 131);
+}
+ol {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+header {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1.3em;
+    font-family: "Domine", sans-serif;
+    color: #005317;
+    margin-bottom: 20px;
+}
+nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 3em;
+    flex-wrap: wrap;
+}
+nav > ol {
+    margin: 0 auto;
+}
+nav > ol > li {
+    font-size: 2.5em;
+}
+nav > ol > ol {
+    list-style: circle;
+}
+nav > ol > ol > li {
+    margin-left: 2em;
+}
+nav > ol > ol > li > a {
+    font-size: 1.2em;
+}
+nav > ol > ol > li:last-child {
+    margin-bottom: 1em;
+}
+section {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+section > h3 {
+    font-size: 2.3em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #1d3557;
+    letter-spacing: 1.2px;
+}
+.imagesWarp {
+    display: flex;
+    justify-content: space-evenly;
+}
+section > div > img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 2px 10px black;
+}
+@media (max-width: 640px) {
+    .nav {
+        display: block;
+    }
+    .imagesWarp {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    section > div > img {
+        width: 55px;
+        height: 55px;
+    }
+}
